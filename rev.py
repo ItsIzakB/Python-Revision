@@ -58,5 +58,22 @@ employees.pop(1)
 for employee in employees:
     print(employee)
 
+#tuple is not
+managers = ('bob')
+#managers.remove('bob') -- doesn't work
+
+
+#set
+
+janitors = {'ben','fred','harry'}
+
+janitors.add('lebron')
+janitors.remove('harry')
+janitors.pop()
+
+print(janitors)
+
+
+
 
 
