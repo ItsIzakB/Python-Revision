@@ -47,4 +47,16 @@ print("boo")
 time.sleep(1)
 print("again...")
 
+#List
+
+employees = ['john', 'joe', 'jake']
+print(employees)
+
+employees.append("jaqiem")
+employees.remove("john")
+employees.pop(1)
+for employee in employees:
+    print(employee)
+
+
 
