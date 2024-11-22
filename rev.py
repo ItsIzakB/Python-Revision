@@ -37,4 +37,14 @@ for i in reversed(range(6)):
     time.sleep(1)
 print("boo")
 
+#alt sol:
+
+for i in range(10, 0, -1):
+    print(i)
+    time.sleep(1)
+
+print("boo")
+time.sleep(1)
+print("again...")
+
 
